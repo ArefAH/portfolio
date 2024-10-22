@@ -145,6 +145,10 @@ body {
   background-size: cover;
 }
 
+.contact-form h1{
+  text-align: center;
+}
+
 .contact-form form {
   display: flex;
   flex-direction: column;
@@ -172,4 +176,43 @@ body {
   width: 50rem;
   padding: 10px;
   resize: none;
+  color: #301158;
+}
+.skills{
+  margin: 15rem 10rem;
+}
+
+.skills-title{
+  display: flex;
+  gap: 10rem;
+}
+
+.skills-title img{
+  width: 50%;
+}
+
+.tech{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.tech p{
+  font-size: 3rem;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10rem;
+  height: 20vh;
+  width: 90vw;
+  gap: 20rem;
+  
+}
+
+.footer img{
+  width: 8rem;
+  background-color: #b21eb2;
+  border-radius: 5rem;
 }
